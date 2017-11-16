@@ -7,7 +7,7 @@ project(robotiq_85_gripper_actions)
 find_package(catkin REQUIRED
   COMPONENTS
   actionlib
-  rail_manipulation_msgs
+  control_msgs
   robotiq_85_msgs
   roscpp
 )
